@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="Base::layout(~{::section})">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Contact Manager</title>
+<!-- Link to Material Design for Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Link to Tailwind CSS (Optional) -->
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<section>
+<style>
+	
+  body {
+	  
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  header {
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+  }
+  .container {
+    padding: 20px;
+  }
+  .cta-button {
+    display: inline-block;
+  }
+  .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+  }
+  .feature {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  footer {
+    background-color: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h2 class="mb-4">Features</h2>
+    <div class="features">
+      <div class="feature">
+        <div class="text-3xl mb-3">📞</div>
+        <h3 class="text-xl mb-2">Add Contacts</h3>
+        <p>Easily add and organize your contacts with just a few clicks.</p>
+      </div>
+      <div class="feature">
+        <div class="text-3xl mb-3">👀</div>
+        <h3 class="text-xl mb-2">View Contacts</h3>
+        <p>Effortlessly view and search through your contact list whenever you need.</p>
+      </div>
+      <div class="feature">
+        <div class="text-3xl mb-3">🗑️</div>
+        <h3 class="text-xl mb-2">Delete Contacts</h3>
+        <p>Remove unwanted contacts from your list with ease.</p>
+      </div>
+      <div class="feature">
+        <div class="text-3xl mb-3">✏️</div>
+        <h3 class="text-xl mb-2">Edit Contacts</h3>
+        <p>Update contact details whenever necessary to keep your information accurate.</p>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    <p>&copy; 2023 Smart Contact Manager. All rights reserved.</p>
+  </footer>
+  
+  </section>
+</body>body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  header {
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .feature {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  .feature-icon {
+    font-size: 36px;
+    margin-right: 15px;
+  }
+  .feature-description {
+    font-size: 16px;
+    color: #555555;
+  }
+  footer {
+    background-color: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>About Smart Contact Manager</h1>
+    <p>Your Ultimate Solution for Contact Management</p>
+  </header>
+  <div class="container">
+    <h2>Our Mission</h2>
+    <p>We're dedicated to providing you with a seamless and efficient way to manage your contacts. Our goal is to simplify contact management so you can focus on what matters most.</p>
+
+    <h2>Key Features</h2>
+    <div class="feature">
+      <div class="feature-icon">📞</div>
+      <div class="feature-description">Add, organize, and keep track of your contacts effortlessly.</div>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">👀</div>
+      <div class="feature-description">View your contacts with ease and quickly find the information you need.</div>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">🗑️</div>
+      <div class="feature-description">Delete unwanted contacts to maintain a clutter-free list.</div>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">✏️</div>
+      <div class="feature-description">Edit contact details to ensure accuracy and up-to-date information.</div>
+    </div>
+  
+  <footer>
+    <p>&copy; 2023 Smart Contact Manager. All rights reserved.</p>
+  </footer>
+  
+  </section>
+</body>
+</html>
